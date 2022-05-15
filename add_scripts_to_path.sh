@@ -16,6 +16,7 @@ done
 echo "$ ls -lh $BIN"
 ls -lh $BIN
 
+
 echo "Symbolic links created, please restart your shell"
 
 
