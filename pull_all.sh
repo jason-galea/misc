@@ -23,5 +23,6 @@ for repo in $(find -type d -name '.git' | sed 's/.git//' | grep -v crystal | gre
     echo "$ git -C $repo pull"
     git -C $repo pull
     echo
+    
 done
 
