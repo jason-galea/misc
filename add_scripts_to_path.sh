@@ -1,22 +1,31 @@
 #!/usr/bin/bash
 
+### Vars
+BIN_DIR="$HOME/.local/bin"
+SCRIPT_DIR=$(dirname $(readlink -f $0))
 
-BIN="$HOME/.local/bin"
-ME=`basename "$0"`
 
+### Create bin dir/Delete old symlinks
+if [[ -d $BIN_DIR ]]; then
+    echo -e "\n==> Deleting old symlinks"
+    for SYMLINK in $(find $BIN_DIR -type l); do ### Deals with 0 results
+        rm $SYMLINK
+    done
+else
+    echo -e "\n==> Creating '$BIN_DIR'"
+    mkdir $BIN_DIR
+fi
 
-
-### Create symbolic links
-for s in $(ls *.sh | grep -v "$ME" | sed 's/.sh//'); do
-    echo "$ ln -s $s.sh $BIN/$s"
-    ln -s $(pwd)/$s.sh $BIN/$s
-    echo
+### Create
+echo -e "\n==> Creating new symlinks"
+for SCRIPT in $(find $SCRIPT_DIR -type f -iname "*.sh"); do
+    echo "$ ln -s $SCRIPT $BIN_DIR/$(basename $SCRIPT .sh)"
+    ln -s $SCRIPT $BIN_DIR/$(basename $SCRIPT .sh)
 done
 
-echo "$ ls -lh $BIN"
-ls -lh $BIN
+### Signpost
+echo -e "\n==> Displaying symlinks"
+ls -lh $BIN_DIR
 
-echo "Symbolic links created, please restart your shell"
-
-
-
+echo -e "\n==> Symlinks created"
+echo -e "\n==> You can now execute the above scripts as commands"
