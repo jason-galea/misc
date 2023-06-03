@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../proxmox_automation"
+		},
+		{
+			"path": "../../homelab_pihole"
+		},
+		{
+			"path": "../../homelab_nginx"
+		}
+	],
+	"settings": {
+		"ansible.python.interpreterPath": "/bin/python3.11"
+	}
+}
