@@ -1,9 +1,6 @@
 {
 	"folders": [
 		{
-			"path": ".."
-		},
-		{
 			"path": "../../proxmox_automation"
 		},
 		{
@@ -11,6 +8,9 @@
 		},
 		{
 			"path": "../../homelab_nginx"
+		},
+		{
+			"path": ".."
 		}
 	],
 	"settings": {
