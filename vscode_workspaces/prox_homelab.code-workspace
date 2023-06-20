@@ -14,6 +14,9 @@
 		}
 	],
 	"settings": {
-		"ansible.python.interpreterPath": "/bin/python3.11"
+		"ansible.python.interpreterPath": "/usr/bin/python3",
+		"yaml.schemas": {
+			"https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/inventory.json": "file:///home/jg/repos/proxmox_automation/ansible/inv/prod.yml"
+		}
 	}
 }
