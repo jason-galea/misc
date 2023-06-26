@@ -10,6 +10,9 @@
 			"path": "../../homelab_nginx"
 		},
 		{
+			"path": "../../price_scraper"
+		},
+		{
 			"path": ".."
 		}
 	],
