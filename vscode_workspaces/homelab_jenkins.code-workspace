@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../homelab_jenkins"
+		},
+		{
+			"path": "../../proxmox_automation"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
