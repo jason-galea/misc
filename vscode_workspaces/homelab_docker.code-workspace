@@ -7,7 +7,7 @@
 			"path": "../../homelab_docker_vm"
 		},
 		{
-			"path": "../../homelab_xdarr"
+			"path": "../../homelab_xarr"
 		}
 	],
 	"settings": {}
