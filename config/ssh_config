@@ -1,0 +1,17 @@
+### Infra
+Host prox
+    HostName 10.1.1.2
+    User root
+Host docker
+    HostName 10.1.1.210
+    User docker
+
+Host prox_test
+    HostName 10.1.1.240
+    User root
+
+
+### Services
+Host jellyfin
+    HostName 10.1.1.114
+    User root
