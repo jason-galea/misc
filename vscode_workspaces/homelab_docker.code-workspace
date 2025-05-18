@@ -8,6 +8,12 @@
 		},
 		{
 			"path": "../../homelab_xarr"
+		},
+		{
+			"path": "../../homelab_nginx"
+		},
+		{
+			"path": "../../homelab_pihole"
 		}
 	],
 	"settings": {}

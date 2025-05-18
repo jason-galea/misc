@@ -9,6 +9,10 @@ Host docker
 Host prox_test
     HostName 10.1.1.240
     User root
+Host torrents
+    HostName 10.1.1.130
+    User torrents
+
 
 
 ### Services
