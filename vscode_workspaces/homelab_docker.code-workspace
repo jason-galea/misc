@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "../../homelab_bookstack"
+		},
+		{
+			"path": "../../homelab_unifi"
 		}
 	],
 	"settings": {}
