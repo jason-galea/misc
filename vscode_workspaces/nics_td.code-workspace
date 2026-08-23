@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../nics_td"
+		},
+		{
+			"path": "../../TouchDesigner-Linux"
+		}
+	],
+	"settings": {}
+}
