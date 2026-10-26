@@ -3,24 +3,30 @@
 		{
 			"path": ".."
 		},
+
+		// Infra
 		{
 			"path": "../../homelab_docker_vm"
-		},
-		{
-			"path": "../../homelab_xarr"
-		},
-		{
-			"path": "../../homelab_nginx"
 		},
 		{
 			"path": "../../homelab_pihole"
 		},
 		{
-			"path": "../../homelab_bookstack"
+			"path": "../../homelab_nginx"
 		},
 		{
 			"path": "../../homelab_unifi"
-		}
+		},
+
+		// Services
+		{
+			"path": "../../homelab_bookstack"
+		},
+
+		// Torrents
+		{
+			"path": "../../homelab_xarr"
+		},
 	],
 	"settings": {}
 }
