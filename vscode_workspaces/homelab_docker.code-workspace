@@ -3,8 +3,6 @@
 		{
 			"path": ".."
 		},
-
-		// Infra
 		{
 			"path": "../../homelab_docker_vm"
 		},
@@ -17,16 +15,15 @@
 		{
 			"path": "../../homelab_unifi"
 		},
-
-		// Services
 		{
 			"path": "../../homelab_bookstack"
 		},
-
-		// Torrents
 		{
 			"path": "../../homelab_xarr"
 		},
+		{
+			"path": "../../homelab_immich"
+		}
 	],
 	"settings": {}
 }
